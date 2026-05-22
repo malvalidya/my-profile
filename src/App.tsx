@@ -17,13 +17,14 @@ function App() {
       <button className="theme-toggle" onClick={toggleTheme}>
         {isDark ? <SunIcon /> : <MoonIcon />}
       </button>
-      <ProfileCard
-        name="malvalidya"
-        bio="Mahasiswa Ilmu Komputer yang suka membangun sesuatu. Sedang mendalami React, TypeScript, dan DevOps."
-        skills={['React', 'TypeScript', 'Node.js', 'Git']}
-        avatarUrl="malva.jpeg"
-        githubUrl="https://github.com/malvalidya"
-      />
+<ProfileCard
+  name="malvalidya"
+  bio="Mahasiswa Ilmu Komputer yang suka membangun sesuatu."
+  skills={['React', 'TypeScript', 'Node.js', 'Git']}
+  avatarUrl="malva.jpeg"
+  githubUrl="https://github.com/malvalidya"
+  location="Malang, Jawa Timur"
+/>
     </div>
   )
 }
