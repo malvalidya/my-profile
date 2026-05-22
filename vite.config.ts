@@ -5,7 +5,8 @@ export default defineConfig({
   plugins: [react()],
   base: process.env.NODE_ENV === 'production' ? '/my-profile/' : '/',
   test: {
-    environment: 'jsdom',
-    globals: true,
-  },
-})
+  environment: 'jsdom',
+  globals: true,
+  setupFiles: './src/setupTests.ts',
+},
+  },)
