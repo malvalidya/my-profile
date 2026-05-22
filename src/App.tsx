@@ -21,7 +21,7 @@ function App() {
         name="malvalidya"
         bio="Mahasiswa Ilmu Komputer yang suka membangun sesuatu. Sedang mendalami React, TypeScript, dan DevOps."
         skills={['React', 'TypeScript', 'Node.js', 'Git']}
-        avatarUrl="https://api.dicebear.com/7.x/avataaars/svg?seed=student"
+        avatarUrl="malva.jpeg"
         githubUrl="https://github.com/malvalidya"
       />
     </div>
